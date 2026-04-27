@@ -26,7 +26,7 @@ async def is_joined(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def force_join_msg(update: Update):
     buttons = [
-        [InlineKeyboardButton("💜 Join Channel", url=f"https://t.me/{CHANNEL_USERNAME.replace('@','')}")],
+        [InlineKeyboardButton("💜 Join Channel", url=f"https://t.me/{@bangladeshkobor.replace('@','')}")],
         [InlineKeyboardButton("✅ I Joined", callback_data="check_join")]
     ]
 
